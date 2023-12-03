@@ -1,7 +1,7 @@
 "use client"
 
 import React, { createContext, useState, useContext } from 'react'
-import themes from './themes'
+import themes from '../Components/context/themes'
 
 export const GlobalContext = createContext()
 export const GlobalUpdateContext = createContext()
