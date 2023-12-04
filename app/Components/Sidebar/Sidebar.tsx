@@ -10,8 +10,17 @@ export default function Sidebar(){
     return <SidebarStyled theme={theme}>
         <div className="profile">
             <div className="profile-overlay"></div>
-            <Image width={70} height={70} src="/avatar.png" alt="profile" />
+            <div className="image">
+                <Image width={70} height={70} src="/avatar.png" alt="profile" />
+            </div>
+            <h1>
+                <span>John</span>
+                <span>Doe</span>
+            </h1>
         </div>
+        <ul className="nav-items">
+            
+        </ul>
     </SidebarStyled>;
 }
 
