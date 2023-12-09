@@ -1,9 +1,12 @@
 "use client"
+import { SignIn } from '@clerk/nextjs'
 import React from 'react'
 
 function page() {
   return (
-    <div>Sign in page</div>
+    <div>
+      <SignIn />
+    </div>
   )
 }
 
