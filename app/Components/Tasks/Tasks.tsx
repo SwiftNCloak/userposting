@@ -10,9 +10,9 @@ interface Props {
   }
 
 function Tasks({ title, tasks}: Props) {
-  return (
-    <div>Tasks</div>
-  )
+  const { theme, isLoading, openModal, modal } = useGlobalState();
+  
+  return <TaskStyled theme={theme}>Tasks</TaskStyled>
 }
 
 const TaskStyled = styled.main`
